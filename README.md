@@ -22,8 +22,10 @@ For a question that has multiple answers, it is recommended to format the CSV fi
 - answer1
 - answer2
 - answer3
+
 The code automatically searches the local 'csv' directory and uses the filenames to sort by game and level. This was done as most of the trivia games I am familiar with, e.g., Trivia Murder Party, contain separate and distinct levels. Having all of the data in a single file could cause overlap and confusion, especially since some levels expect a single correct answer, but others are multiple-choice.
 - If you prefer to have all of the game data in a single file and ignore level differences, then feel free to name files along the lines of 'game_all.csv' or similar.
+
 It is extremely easy to add support for other games and applications. Just put a properly-formatted CSV file into the correct directory, and the script will take care of the rest.
 The yield generator is used to return matches to allow for extremely large spreadsheets and amount of data to be searched.
 
