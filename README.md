@@ -1,6 +1,10 @@
 # Trivia Helper
 
+## Video Overview: https://youtu.be/SuShHr8dCx8
+
 #### How to Use:
+In order to run this script, you'll need Python installed on your system, and you'll need to be able to utilize a command line. I'll leave it to you to figure that out, but a nice simple GUI version is planned for the relatively-near future.
+
 The utility works simply by searching its local directory for a 'csv' folder.
 Files in the 'csv' folder require the following in order for the utility to make use of them:
 - Contain a filename of the format 'game_level.csv'
